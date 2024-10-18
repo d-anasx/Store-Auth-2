@@ -20,7 +20,9 @@ const store = configureStore({
 
 function App() {
   return (
+    
     <Provider store={store}>
+      {/*Hello*/}
       <Router>
         <div className="min-h-screen bg-gray-100">
           <Navbar />
